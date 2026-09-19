@@ -33,7 +33,7 @@ export function checkAnswer(state: GameState, input: number): GameState {
     return state;
 }
 
-export function rick(state: GameState): GameState {
+export function tick(state: GameState): GameState {
     if (!state.isRunning) {
         return state;
     }
